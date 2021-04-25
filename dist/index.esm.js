@@ -2327,15 +2327,15 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/netdefi/",
+                href: "https://github.com/octaxz/",
             },
             {
                 label: "Docs",
-                href: "https://netdefi.gitbook.io/net-finance/",
+                href: "https://netdefi.gitbook.io/octax/",
             },
             {
                 label: "Blog",
-                href: "https://netdefi.medium.com/",
+                href: "https://octax.medium.com/",
             },
         ],
     },
@@ -2347,62 +2347,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/goosedefi",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            {
-                label: "中文",
-                href: "https://t.me/netfinancechinese",
-            },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            // {
-            //   label: "Italiano",
-            //   href: "https://t.me/pancakeswap_ita",
-            // },
-            {
-                label: "русский",
-                href: "https://t.me/netfinancerussian",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/NetFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/netfinancespanish",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/netfinancejapanese",
-            },
-            // {
-            //   label: "Français",
-            //   href: "https://t.me/pancakeswapfr",
-            // },
-            {
-                label: "Announcements",
-                href: "https://t.me/netfinanceann",
-            },
-            {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketNet",
+                href: "https://t.me/octaxstakingandfarming",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceNet",
+        href: "https://twitter.com/octa__x",
     },
 ];
 var MENU_HEIGHT = 64;
