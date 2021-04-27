@@ -120,7 +120,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/octaxstakingandfarming",
+        href: "https://t.me/joinchat/lIDjcbQDN91mYjVl",
       },
       // {
       //   label: "Bahasa Indonesia",
