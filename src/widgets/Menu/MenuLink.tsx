@@ -8,8 +8,9 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, tar
   const Tag: any = isHttpLink ? "a" : NavLink;
   const props = isHttpLink ? { href } : { to: href };
 
-  console.log(Tag)
-  console.log(props)
+
+  // console.log(Tag)
+  // console.log(props)
   console.log(target)
   return <Tag {...props} {...otherProps} {...target} />;
 };
