@@ -6,13 +6,13 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, tar
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Tag: any = isHttpLink ? "a" : NavLink;
-  const props = isHttpLink ? { href } : { to: href };
-
+  const props = isHttpLink ? { href } : { to: href } ;
+  const props2 = isHttpLink && target ? { target } : "";
 
   // console.log(Tag)
   // console.log(props)
   console.log("MenuLink",target)
-  return <Tag {...props} {...otherProps} />;
+  return <Tag {...props} {...props2} {...otherProps} />;
 };
 
 
