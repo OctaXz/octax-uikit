@@ -2440,7 +2440,7 @@ var MenuLink = function (_a) {
     // console.log(Tag)
     // console.log(props)
     console.log(target);
-    return React.createElement(Tag, __assign({}, props, otherProps, target));
+    return React.createElement(Tag, __assign({}, props, otherProps));
 };
 
 var Icons = IconModule;
@@ -2450,6 +2450,7 @@ var PanelBody = function (_a) {
     var location = useLocation();
     // Close the menu when a user clicks a link on mobile
     var handleClick = isMobile ? function () { return pushNav(false); } : undefined;
+    console.log(links);
     return (React.createElement(Container$4, null, links.map(function (entry) {
         var Icon = Icons[entry.icon];
         var iconElement = React.createElement(Icon, { width: "32px", mr: "8px" });

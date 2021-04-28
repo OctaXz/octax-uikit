@@ -12,7 +12,7 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, tar
   // console.log(Tag)
   // console.log(props)
   console.log(target)
-  return <Tag {...props} {...otherProps} {...target} />;
+  return <Tag {...props} {...otherProps} />;
 };
 
 
