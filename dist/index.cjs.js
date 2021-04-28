@@ -2450,6 +2450,8 @@ var MenuLink = function (_a) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     var Tag = isHttpLink ? "a" : reactRouterDom.NavLink;
     var props = isHttpLink ? { href: href } : { to: href };
+    console.log(Tag);
+    console.log(props);
     return React__default['default'].createElement(Tag, __assign({}, props, otherProps));
 };
 
