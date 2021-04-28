@@ -11,7 +11,7 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, tar
 
   // console.log(Tag)
   // console.log(props)
-  console.log(target)
+  console.log("MenuLink",target)
   return <Tag {...props} {...otherProps} />;
 };
 

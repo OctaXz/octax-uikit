@@ -2439,7 +2439,7 @@ var MenuLink = function (_a) {
     var props = isHttpLink ? { href: href } : { to: href };
     // console.log(Tag)
     // console.log(props)
-    console.log(target);
+    console.log("MenuLink", target);
     return React.createElement(Tag, __assign({}, props, otherProps));
 };
 
@@ -2450,7 +2450,7 @@ var PanelBody = function (_a) {
     var location = useLocation();
     // Close the menu when a user clicks a link on mobile
     var handleClick = isMobile ? function () { return pushNav(false); } : undefined;
-    console.log(links);
+    console.log("PanelBody", links);
     return (React.createElement(Container$4, null, links.map(function (entry) {
         var Icon = Icons[entry.icon];
         var iconElement = React.createElement(Icon, { width: "32px", mr: "8px" });
