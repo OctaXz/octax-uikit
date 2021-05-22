@@ -7,7 +7,7 @@ const Icon: React.FC<SvgProps> = (props) => {
     <Svg viewBox="0 0 24 24" {...props}>
 
 <g transform="translate(0.000000,24.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+  stroke="none">
 <path d="M203 225 c-4 -11 -2 -20 5 -23 7 -2 12 -8 12 -13 0 -6 -4 -7 -10 -4
 -5 3 -10 2 -10 -4 0 -18 17 -21 30 -6 10 12 10 18 -1 32 -8 9 -12 18 -11 20 2
 3 1 7 -2 10 -3 3 -9 -2 -13 -12z"/>
