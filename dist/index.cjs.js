@@ -2762,7 +2762,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
         magentaTheme: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#b20000", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#ffffff", textDisabled: "#666171", textSubtle: "#ffffff", borderColor: "#524B63", card: "#292929", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#F06292", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#ffffff", textDisabled: "#666171", textSubtle: "#ffffff", borderColor: "#524B63", card: "#292929", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
         magentaTheme: "linear-gradient(-45deg, #903a57 0%, #903a57 33%, #9e5919 100%)",
     } });
