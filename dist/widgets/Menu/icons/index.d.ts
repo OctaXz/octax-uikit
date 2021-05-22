@@ -23,3 +23,4 @@ export { default as RoadmapIcon } from "./Roadmap";
 export { default as ReferralIcon } from "./Referral";
 export { default as AirdropIcon } from "./Airdrop";
 export { default as AdvertisingIcon } from "./Advertising";
+export { default as ArbitrageIcon } from "./Arbitrage";

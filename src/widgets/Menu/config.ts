@@ -34,6 +34,11 @@ export const links = [
     href: "/lottery",
   },
   {
+    label: "Arbitrage",
+    icon: "ArbitrageIcon",
+    href: "/arbitrage",
+  },
+  {
     label: "Advertising",
     icon: "AdvertisingIcon",
     href: "/advertising",
